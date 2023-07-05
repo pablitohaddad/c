@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="pablo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-01 07:41:37 "/>
+        <attribute name="created" value="cGFibG87UEFCTElUTzsyMDIzLTA1LTAxOyIwNzoyNTo1OSAiOzIyNDU="/>
+        <attribute name="edited" value="cGFibG87UEFCTElUTzsyMDIzLTA1LTAxOyIwNzo0MTozNyAiOzI7MjM0OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <declare name="endereco" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o seu endereco:&quot;" newline="True"/>
+            <input variable="endereco"/>
+            <declare name="numeroTelefone" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o seu nomero de telefone&quot;" newline="True"/>
+            <input variable="numeroTelefone"/>
+            <output expression="&quot;Nome: &quot; &amp; nome" newline="True"/>
+            <output expression="&quot;Endere&#231;o: &quot; &amp; endereco" newline="True"/>
+            <output expression="&quot;Numero de telefone: &quot; &amp; numeroTelefone" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
