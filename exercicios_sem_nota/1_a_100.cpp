@@ -15,4 +15,7 @@ int main(){
         printf("%d --> ", num[i]);
     }
 
+    system("pause");
+    return 0;
+
 }
