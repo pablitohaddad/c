@@ -1,6 +1,6 @@
 /*
-//scanf() n�o consegue ler Espa�o ent�o para e esse espa�o
-� guardado no BUFFER.
+//scanf() nao consegue ler Espaco enter para e esse espaco
+eh guardado no BUFFER.
 */
 #include <stdio.h>
 int main()
@@ -10,7 +10,7 @@ int main()
 
     printf("Nome completo: ");
     scanf("%[^\n]s", nome);
-    setbuf(stdin,NULL);
+    setbuf(stdin,NULL); 
 
     printf("Insira data Nascimento: ");
     scanf("%[^\n]s", datanascimento);
