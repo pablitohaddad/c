@@ -4,22 +4,23 @@ Crie na funcao main mensagens que mostrem se o numero eh par ou impar*/
 #include <stdio.h>
 #include <stdlib.h>
 
-
+/* definicao da variavel*/
 int ehParImpar(int n);
 
 int main()
 {
-    int num, result;
+    int num;
     printf("Insira um numero inteiro: ");
     scanf("%d", &num);
-    result = ehParImpar(num);
-    if(result)
+    if(ehParImpar(num))
     {
         printf("O numero eh par");
     }
     else{
         printf("O numero eh impar");
     }
+
+    return 0;
 
 }
 /*Definicao eh par eh impar*/
