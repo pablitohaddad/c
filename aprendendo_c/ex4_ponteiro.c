@@ -11,9 +11,4 @@ int main(){
         {
             printf("Posicao [%d][%d] na posicao %p\n", i + 1, j + 1, &(x[i][j]));
         }
-        
-
-
-
-
 }
