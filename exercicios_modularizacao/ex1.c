@@ -26,6 +26,8 @@ int main()
     scanf("%f", &N4);
 
     float media = mediaDeQuatro(N1, N2, N3, N4);
-    printf("A media dos quatro numeros eh: %.2f ", media);
+    printf("A media dos quatro numeros eh: %.2f \n", media);
 
+    system("pause");
+    return 0;
 }

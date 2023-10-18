@@ -17,13 +17,16 @@ int main()
 
     int nota_final = somaTrimestre(N1, N2, N3);
 
-    printf("A nota final do aluno foi de %d", nota_final);
+    printf("A nota final do aluno foi de %d\n", nota_final);
 
     if(nota_final < 70)
     {
         printf("\nO aluno foi reprovado!");
     }else
-    printf("\nO aluno passou de ano!");
+    printf("\nO aluno passou de ano!\n");
+
+    system("pause");
+    return 0;
     
 }
 
