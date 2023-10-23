@@ -10,23 +10,23 @@ int main()
         int L2;
         int L3;
 
-    }l1, l2, l3;
+    }triangulo;
     
 
     printf("Digite a lado 1 do triangulo: ");
-    scanf("%d", &l1.L1);
+    scanf("%d", &triangulo.L1);
 
     printf("Digite a lado 2 do triangulo: ");
-    scanf("%d", &l2.L2);
+    scanf("%d", &triangulo.L2);
 
     printf("Digite a lado 3 do triangulo: ");
-    scanf("%d", &l3.L3);
+    scanf("%d", &triangulo.L3);
 
-    if (trianguloValido(l1.L1, l2.L2, l3.L3))
+    if (trianguloValido(triangulo.L1, triangulo.L2, triangulo.L3))
     {
-        printf("O triangulo eh valido, e a sua area eh %d \n", Area(l1.L1, l2.L2, l3.L3));
+        printf("O triangulo eh valido, e a sua area eh %d \n", Area(triangulo.L1, triangulo.L2, triangulo.L3));
 
-    }else if (!(trianguloValido(l1.L1, l2.L2, l3.L3)))
+    }else if (!(trianguloValido(triangulo.L1, triangulo.L2, triangulo.L3)))
     {
         printf("O triangulo nao eh valido\n");
     }

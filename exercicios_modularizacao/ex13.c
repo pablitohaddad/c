@@ -14,27 +14,28 @@ int main()
     struct Financiamento
     {
         float valorImovel;
-        float valorEntrada;
-        int numeroPrestacoes;
+        float valorEntrada;  
+        int numeroPrestacoes; 
         
-    }precoImovel, precoEntrada, prestacoes;
+    }Imovel;
 
     printf("Digite o preco total do imovel: ");
-    scanf("%f", &precoImovel.valorImovel);
+    scanf("%f", &Imovel.valorImovel);
 
     printf("Digite o valor de entrada: ");
-    scanf("%f", &precoEntrada.valorEntrada);
+    scanf("%f", &Imovel.valorEntrada);
 
     printf("Digite a quantidade de prestacoes: ");
-    scanf("%d", &prestacoes.numeroPrestacoes);
+    scanf("%d", &Imovel.numeroPrestacoes);
 
-    float valorPagar = valorPrestacoes(precoImovel.valorImovel, precoEntrada.valorEntrada, prestacoes.numeroPrestacoes);
+    float valorPagar = valorPrestacoes(Imovel.valorImovel, Imovel.valorEntrada, Imovel.numeroPrestacoes);
 
-    for (int i = 0; i < (prestacoes.numeroPrestacoes); i++)
+    for (int i = 0; i < (Imovel.numeroPrestacoes); i++)
     {
         printf("[%d] prestacao --> %.2f \n", i + 1, valorPagar);
     }
     
-
+    system("pause");
+    return 0;
 }
 
